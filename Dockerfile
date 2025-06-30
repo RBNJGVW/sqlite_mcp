@@ -15,7 +15,6 @@ COPY --from=builder /usr/local/bin /usr/local/bin
 
 # Copiamos código fuente y la base de datos
 COPY . .
-COPY database.db /app/database.db
 
 EXPOSE 8000
 
