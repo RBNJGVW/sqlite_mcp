@@ -18,4 +18,4 @@ COPY . .
 
 EXPOSE 8000
 
-CMD ["python", "-u", "server.py"]
+CMD ["python", "-u", "sqlite_mcp_server.py"]
